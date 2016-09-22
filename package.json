@@ -4,12 +4,16 @@
   "description": "TDD Development using Mocha and Chai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register"
   },
   "author": "Dishant Soni",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0"
   }
 }
