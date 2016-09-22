@@ -1,0 +1,15 @@
+{
+  "name": "userstest",
+  "version": "1.0.0",
+  "description": "TDD Development using Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dishant Soni",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
